@@ -1,0 +1,43 @@
+{
+    "name": "@elcarte/theme-minimal",
+    "version": "0.0.1",
+    "description": "Minimal theme for Elcarte e-commerce platform",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc && cp src/styles.css dist/",
+        "prepublishOnly": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/elcarte/elcarte-theme-minimal.git"
+    },
+    "homepage": "https://github.com/elcarte/elcarte-theme-minimal#readme",
+    "bugs": {
+        "url": "https://github.com/elcarte/elcarte-theme-minimal/issues"
+    },
+    "keywords": [
+        "elcarte",
+        "theme",
+        "react",
+        "ecommerce",
+        "minimal"
+    ],
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "peerDependencies": {
+        "react": ">=18.0.0",
+        "react-dom": ">=18.0.0",
+        "@elcarte/blocks": "^0.0.1"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0",
+        "@types/react": "^19.0.0",
+        "@types/react-dom": "^19.0.0"
+    }
+}

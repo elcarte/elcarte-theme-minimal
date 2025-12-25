@@ -1,6 +1,6 @@
 {
     "name": "@elcarte/theme-minimal",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Minimal theme for Elcarte e-commerce platform",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -34,15 +34,15 @@
         "react": ">=18.0.0",
         "react-dom": ">=18.0.0",
         "next": ">=14.0.0",
-        "@elcarte/core": "^0.0.1",
-        "@elcarte/blocks": "^0.0.1"
+        "@elcarte/core": "^0.0.4",
+        "@elcarte/blocks": "^0.0.6"
     },
     "devDependencies": {
         "typescript": "^5.0.0",
         "@types/react": "^19.0.0",
         "@types/react-dom": "^19.0.0",
-        "@elcarte/core": "^0.0.2",
-        "@elcarte/blocks": "^0.0.1",
+        "@elcarte/core": "^0.0.4",
+        "@elcarte/blocks": "^0.0.6",
         "next": "^16.0.0"
     }
 }
